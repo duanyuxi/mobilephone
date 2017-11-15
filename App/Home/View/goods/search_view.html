@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>产品列表</title>
+<meta name="keywords"  content="KEYWORDS..." />
+<meta name="description" content="DESCRIPTION..." />
+<meta name="author" content="DeathGhost" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name='apple-touch-fullscreen' content='yes'>
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+<meta name="format-detection" content="address=no">
+<link rel="icon" href="__PUBLIC__/images/icon/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="__PUBLIC__/images/icon/apple-touch-icon-57x57-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="__PUBLIC__/images/icon/apple-touch-icon-120x120-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="196x196" href="__PUBLIC__/images/icon/apple-touch-icon-196x196-precomposed.png">
+<meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/style.css" />
+<script src="__PUBLIC__/js/jquery.js"></script>
+</head>
+<body style="background:white;">
+<!--header-->
+<header>
+ <a href="javascript:history.go(-1);" class="iconfont backIcon">&#60;</a>
+ <h1>产品列表</h1>
+ <a href="search.html" class="rt_searchIcon">&#63;</a>
+</header>
+<div style="height:1rem;"></div>
+
+<!--productList-->
+<section class="productList">
+  <ul>
+   <volist name="rew" id="vo">
+   <li>
+    <a href="{:U('goods/product',array('id'=>$vo['id']))}" class="goodsPic" >
+     <img src="__PUBLIC__/upload/{$vo['picname']}"/>
+    </a>
+    <div class="goodsInfor">
+     <h2>
+      <a href="{:U('goods/product',array('id'=>$vo['id']))}">{$vo['goodsname']}</a>
+     </h2>
+     <p>
+      <del>{$vo['oldprice']}</del>
+     </p>
+     <p>
+      <strong class="price">{$vo['price']}</strong>
+     </p>
+     <a class="addToCart" onclick="add(this,{$vo['id']})" vv="{$vo['id']}">&#126;</a>
+    </div>
+   </li>
+   </volist>
+  </ul>
+  <a class="more_btn">加载更多</a>
+</section>
+<!--floatCart-->
+<div class="hoverCart">
+ <a href="{:U('cart/cart')}">0</a>
+</div>
+</body>
+</html>
+<script>
+
+
+        $(".drop_icon").click(function(){
+            $(".drop_list").toggle(600);
+            $(".drop_list li a").click(function(){
+                $(this).parents(".drop_list").hide();
+            });
+        });
+
+        //飞入动画，具体根据实际情况调整
+        function add(obj,id){
+
+
+            var shopOffset = $(".hoverCart").offset();
+            var cloneDiv = $(obj).parent().siblings(".goodsPic").clone();
+            var proOffset = $(obj).parent().siblings(".goodsPic").offset();
+            cloneDiv.css({ "position": "absolute", "top": proOffset.top, "left": proOffset.left });
+           $(obj).parent().siblings(".goodsPic").parent().append(cloneDiv);
+            cloneDiv.animate({
+                width:0,
+                height:0,
+                left: shopOffset.left,
+                top: shopOffset.top,
+                opacity:1
+            },"slow");
+
+            $.ajax({
+                url:"{:U('goods/category_addcart')}",
+                type:"post",
+                data:{gid:id},
+                datatype:"text",
+                success:function(act){
+                    if(act==0){
+                        $(".hoverCart a").html(parseInt($(".hoverCart a").html())-1);
+                    }
+                    $(".hoverCart a").html(parseInt($(".hoverCart a").html())+1);
+                }
+            });
+
+        };
+
+//判断登陆及购物车情况(只执行一次)
+        $(".addToCart").one('click',function(){
+            var id=$(this).attr('vv');
+        $.ajax({
+            url:"{:U('goods/category_decide')}",
+            type:"post",
+            data:{id:0},
+            datatype:"text",
+            success:function(active){
+                if(active=='1'){
+                    $.ajax({
+                        url:"{:U('goods/category_cart')}",
+                        type:"post",
+                        data:{id:0},
+                        datatype:"text",
+                        success:function(num){
+                            $(".hoverCart a").html(num);
+//                            $.ajax({
+//                                url:"{:U('goods/category_addcart')}",
+//                                type:"post",
+//                                data:{gid:id},
+//                                datatype:"text",
+//                                success:function(act){
+//                                    alert(act);
+//                                }
+//                            })
+                        }
+                    })
+                }else{
+                    window.location.href="{:U('login/login')}";
+                }
+            }
+        })
+        })
+</script>

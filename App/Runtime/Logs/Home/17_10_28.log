@@ -1,0 +1,1143 @@
+[ 2017-10-28T13:58:15+08:00 ] ::1 /index.php/Home/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001463s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020278s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001451s ]
+
+[ 2017-10-28T13:58:21+08:00 ] ::1 /index.php/Home/usercenter/user.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009630s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009733s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000639s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000718s ]
+
+[ 2017-10-28T13:58:26+08:00 ] ::1 /index.php/Home/goods/category.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0022s ]
+SQL: select name,id from type where pid="0" [ RunTime:0.0004s ]
+SQL: select name,id from type where pid="1" [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021877s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021966s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000863s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2017-10-28T13:58:27+08:00 ] ::1 /index.php/Home/goods/categorylist/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000706s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0032s ]
+SQL: select * from goods where typeid='14' order BY id asc [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000274s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2017-10-28T13:58:28+08:00 ] ::1 /index.php/Home/goods/product/id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0031s ]
+SQL: select * from goods where id='2' [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022582s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022670s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000671s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000794s ]
+
+[ 2017-10-28T13:58:28+08:00 ] ::1 /index.php/Home/goods/category_decide.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+
+[ 2017-10-28T13:58:28+08:00 ] ::1 /index.php/Home/goods/category_cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0015s ]
+SQL: select goodsnum from cart where uid=11 [ RunTime:0.0006s ]
+
+[ 2017-10-28T13:58:31+08:00 ] ::1 /index.php/Home/goods/product/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0034s ]
+SQL: select * from goods where id='4' [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017179s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017265s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2017-10-28T13:58:31+08:00 ] ::1 /index.php/Home/goods/category_decide.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+
+[ 2017-10-28T13:58:31+08:00 ] ::1 /index.php/Home/goods/category_cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000557s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0016s ]
+SQL: select goodsnum from cart where uid=11 [ RunTime:0.0002s ]
+
+[ 2017-10-28T13:58:35+08:00 ] ::1 /index.php/Home/goods/category_addcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0023s ]
+SQL: select goodsnum from cart where uid=11 and gid='2' [ RunTime:0.0014s ]
+SQL: update cart set goodsnum=11 where gid=2 and uid=11 [ RunTime:0.0092s ]
+
+[ 2017-10-28T13:58:35+08:00 ] ::1 /index.php/Home/goods/category_decide.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+
+[ 2017-10-28T13:58:35+08:00 ] ::1 /index.php/Home/goods/category_cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001558s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0025s ]
+SQL: select goodsnum from cart where uid=11 [ RunTime:0.0006s ]
+
+[ 2017-10-28T13:58:37+08:00 ] ::1 /index.php/Home/cart/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0014s ]
+SQL: select cart.gid,cart.id,cart.goodsnum,goods.picname,goods.goodsname,goods.price,goods.oldprice from cart join goods on cart.gid=goods.id where cart.uid=11 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000288s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000945s ]
+
+[ 2017-10-28T13:59:28+08:00 ] ::1 /index.php/Home/order/confirm_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000913s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001005s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0025s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=7 [ RunTime:0.0012s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=9 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0016s ]
+SQL: select * from address where uid=11 [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000073s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000529s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001323s ]
+
+[ 2017-10-28T13:59:34+08:00 ] ::1 /index.php/Home/order/return_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000549s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0017s ]
+SQL: select * from address where uid=11 [ RunTime:0.0003s ]
+
+[ 2017-10-28T14:00:06+08:00 ] ::1 /index.php/Home/order/confirm_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0019s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=9 [ RunTime:0.0002s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=2 [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0016s ]
+SQL: select * from address where uid=11 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000185s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2017-10-28T14:00:11+08:00 ] ::1 /index.php/Home/order/return_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0016s ]
+SQL: select * from address where uid=11 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0015s ]
+ERR: 1054:Unknown column '$v' in 'where clause'
+ [ SQL语句 ] : select * from goods where id=$v
+ERR: 1054:Unknown column '$v' in 'where clause'
+ [ SQL语句 ] : select * from goods where id=$v
+
+[ 2017-10-28T14:01:03+08:00 ] ::1 /index.php/Home/order/return_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000574s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0027s ]
+SQL: select * from address where uid=11 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0014s ]
+SQL: select * from goods where id=9 [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0017s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '9' at line 1
+ [ SQL语句 ] : select * from gid=9
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '9' at line 1
+ [ SQL语句 ] : select * from gid=9
+
+[ 2017-10-28T14:01:28+08:00 ] ::1 /index.php/Home/order/return_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000788s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0016s ]
+SQL: select * from address where uid=11 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0017s ]
+SQL: select * from goods where id=9 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0016s ]
+SQL: select * from cart where gid=9 [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0021s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''orderid','goodsname','goodsid','price','num') values(25464150917048891452,优' at line 1
+ [ SQL语句 ] : insert into details('orderid','goodsname','goodsid','price','num') values(25464150917048891452,优质牛肉特价,9,54.00,10)
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''orderid','goodsname','goodsid','price','num') values(25464150917048891452,优' at line 1
+ [ SQL语句 ] : insert into details('orderid','goodsname','goodsid','price','num') values(25464150917048891452,优质牛肉特价,9,54.00,10)
+
+[ 2017-10-28T14:10:06+08:00 ] ::1 /index.php/Home/order/return_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0017s ]
+SQL: select * from address where uid=11 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0019s ]
+SQL: select * from goods where id=9 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0018s ]
+SQL: select * from cart where gid=9 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0016s ]
+ERR: 1054:Unknown column '优质牛肉特价' in 'field list'
+ [ SQL语句 ] : insert into details(orderid,goodsname,goodsid,price,num) values(63315150917100631315,优质牛肉特价,9,54.00,10)
+ERR: 1054:Unknown column '优质牛肉特价' in 'field list'
+ [ SQL语句 ] : insert into details(orderid,goodsname,goodsid,price,num) values(63315150917100631315,优质牛肉特价,9,54.00,10)
+
+[ 2017-10-28T14:11:14+08:00 ] ::1 /index.php/Home/order/return_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000879s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0019s ]
+SQL: select * from address where uid=11 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0016s ]
+SQL: select * from goods where id=9 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0013s ]
+SQL: select * from cart where gid=9 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0015s ]
+SQL: insert into details(orderid,goodsname,goodsid,price,num) values(84850150917107489407,'优质牛肉特价',9,54.00,10) [ RunTime:0.0026s ]
+SQL: update goods set store=791,buynum=333 [ RunTime:0.0056s ]
+SQL: delete from cart where gid=9 and uid=11 [ RunTime:0.0017s ]
+SQL: select * from goods where id=2 [ RunTime:0.0006s ]
+SQL: select * from cart where gid=2 [ RunTime:0.0005s ]
+SQL: insert into details(orderid,goodsname,goodsid,price,num) values(84850150917107489407,'新鲜生菜两斤装特惠',2,3.90,11) [ RunTime:0.0006s ]
+SQL: update goods set store=789,buynum=335 [ RunTime:0.0007s ]
+SQL: delete from cart where gid=2 and uid=11 [ RunTime:0.0049s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0033s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order('oid','state','uid','linkname','address','phone','creat_time','remark') va' at line 1
+ [ SQL语句 ] : insert into order('oid','state','uid','linkname','address','phone','creat_time','remark') values(84850150917107489407,1,11,段钰玺,河南省郑州市金水区航海路-a区－c门红星饭店,0,1509171074,)
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order('oid','state','uid','linkname','address','phone','creat_time','remark') va' at line 1
+ [ SQL语句 ] : insert into order('oid','state','uid','linkname','address','phone','creat_time','remark') values(84850150917107489407,1,11,段钰玺,河南省郑州市金水区航海路-a区－c门红星饭店,0,1509171074,)
+
+[ 2017-10-28T14:12:37+08:00 ] ::1 /index.php/Home/order/return_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000771s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0020s ]
+SQL: select * from address where uid=11 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0013s ]
+SQL: select * from goods where id=9 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0012s ]
+SQL: select * from cart where gid=9 [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /Users/danyuxi/Documents/WWW/mobilephone/App/Home/Controller/OrderController.class.php 第 65 行.
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0013s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : insert into details(orderid,goodsname,goodsid,price,num) values(49549150917115730059,'优质牛肉特价',9,54.00,)
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : insert into details(orderid,goodsname,goodsid,price,num) values(49549150917115730059,'优质牛肉特价',9,54.00,)
+
+[ 2017-10-28T14:16:21+08:00 ] ::1 /index.php/Home/order/return_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0023s ]
+SQL: select * from address where uid=11 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0016s ]
+SQL: select * from goods where id=9 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0012s ]
+SQL: select * from cart where gid=9 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined offset: 0 /Users/danyuxi/Documents/WWW/mobilephone/App/Home/Controller/OrderController.class.php 第 65 行.
+
+[ 2017-10-28T14:17:36+08:00 ] ::1 /index.php/Home/cart/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0081s ]
+SQL: select cart.gid,cart.id,cart.goodsnum,goods.picname,goods.goodsname,goods.price,goods.oldprice from cart join goods on cart.gid=goods.id where cart.uid=11 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034967s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000774s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001242s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001365s ]
+
+[ 2017-10-28T14:18:19+08:00 ] ::1 /index.php/Home/order/confirm_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0022s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=3 [ RunTime:0.0008s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=4 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0018s ]
+SQL: select * from address where uid=11 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032768s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000940s ]
+
+[ 2017-10-28T14:18:26+08:00 ] ::1 /index.php/Home/order/return_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0040s ]
+SQL: select * from address where uid=11 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0016s ]
+SQL: select * from goods where id=3 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0015s ]
+SQL: select * from cart where gid=3 [ RunTime:0.0007s ]
+
+[ 2017-10-28T14:18:56+08:00 ] ::1 /index.php/Home/order/return_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000783s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000920s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0029s ]
+SQL: select * from address where uid=11 [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0017s ]
+SQL: select * from goods where id=3 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0014s ]
+SQL: select * from cart where gid=3 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0018s ]
+SQL: insert into details(orderid,goodsname,goodsid,price,num) values(472150917153675521,'红萝卜3斤装',3,8.90,2) [ RunTime:0.0014s ]
+SQL: update goods set store=786,buynum=338 [ RunTime:0.0005s ]
+SQL: delete from cart where gid=3 and uid=11 [ RunTime:0.0006s ]
+SQL: select * from goods where id=4 [ RunTime:0.0006s ]
+SQL: select * from cart where gid=4 [ RunTime:0.0005s ]
+SQL: insert into details(orderid,goodsname,goodsid,price,num) values(472150917153675521,'西红柿5斤装',4,6.90,1) [ RunTime:0.0007s ]
+SQL: update goods set store=782,buynum=342 [ RunTime:0.0005s ]
+SQL: delete from cart where gid=4 and uid=11 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0014s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order(oid,state,uid,linkname,address,phone,creat_time,remark) values(47215091715' at line 1
+ [ SQL语句 ] : insert into order(oid,state,uid,linkname,address,phone,creat_time,remark) values(472150917153675521,1,11,段钰玺,河南省郑州市金水区航海路-a区－c门红星饭店,0,1509171536,asfd)
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order(oid,state,uid,linkname,address,phone,creat_time,remark) values(47215091715' at line 1
+ [ SQL语句 ] : insert into order(oid,state,uid,linkname,address,phone,creat_time,remark) values(472150917153675521,1,11,段钰玺,河南省郑州市金水区航海路-a区－c门红星饭店,0,1509171536,asfd)
+
+[ 2017-10-28T14:21:03+08:00 ] ::1 /index.php/Home/order/return_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0016s ]
+SQL: select * from address where uid=11 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0015s ]
+SQL: select * from goods where id=3 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0016s ]
+SQL: select * from cart where gid=3 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0016s ]
+SQL: insert into details(orderid,goodsname,goodsid,price,num) values(85515150917166385046,'红萝卜3斤装',3,8.90,2) [ RunTime:0.0010s ]
+SQL: update goods set store=779,buynum=345 [ RunTime:0.0006s ]
+SQL: delete from cart where gid=3 and uid=11 [ RunTime:0.0004s ]
+SQL: select * from goods where id=4 [ RunTime:0.0005s ]
+SQL: select * from cart where gid=4 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined offset: 0 /Users/danyuxi/Documents/WWW/mobilephone/App/Home/Controller/OrderController.class.php 第 65 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : insert into details(orderid,goodsname,goodsid,price,num) values(85515150917166385046,'西红柿5斤装',4,6.90,)
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : insert into details(orderid,goodsname,goodsid,price,num) values(85515150917166385046,'西红柿5斤装',4,6.90,)
+
+[ 2017-10-28T14:23:49+08:00 ] ::1 /index.php/Home/cart/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000758s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0019s ]
+SQL: select cart.gid,cart.id,cart.goodsnum,goods.picname,goods.goodsname,goods.price,goods.oldprice from cart join goods on cart.gid=goods.id where cart.uid=11 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032331s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032434s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000958s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2017-10-28T14:23:53+08:00 ] ::1 /index.php/Home/order/confirm_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0018s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=5 [ RunTime:0.0006s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=6 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0016s ]
+SQL: select * from address where uid=11 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000536s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000591s ]
+
+[ 2017-10-28T14:23:58+08:00 ] ::1 /index.php/Home/order/return_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0034s ]
+SQL: select * from address where uid=11 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0018s ]
+SQL: select * from goods where id=5 [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0016s ]
+SQL: select * from cart where gid=5 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0017s ]
+SQL: insert into details(orderid,goodsname,goodsid,price,num) values(74134150917183810793,'西红柿5斤装',5,6.90,2) [ RunTime:0.0012s ]
+SQL: update goods set store=774,buynum=350 [ RunTime:0.0006s ]
+SQL: delete from cart where gid=5 and uid=11 [ RunTime:0.0006s ]
+SQL: select * from goods where id=6 [ RunTime:0.0005s ]
+SQL: select * from cart where gid=6 [ RunTime:0.0005s ]
+SQL: insert into details(orderid,goodsname,goodsid,price,num) values(74134150917183810793,'西红柿5斤装',6,6.90,2) [ RunTime:0.0007s ]
+SQL: update goods set store=768,buynum=356 [ RunTime:0.0004s ]
+SQL: delete from cart where gid=6 and uid=11 [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `order` [ RunTime:0.0013s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order(oid,state,uid,linkname,address,phone,creat_time,remark) values(74134150917' at line 1
+ [ SQL语句 ] : insert into order(oid,state,uid,linkname,address,phone,creat_time,remark) values(74134150917183810793,1,11,'段钰玺','河南省郑州市金水区航海路-a区－c门红星饭店',0,1509171838,'')
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order(oid,state,uid,linkname,address,phone,creat_time,remark) values(74134150917' at line 1
+ [ SQL语句 ] : insert into order(oid,state,uid,linkname,address,phone,creat_time,remark) values(74134150917183810793,1,11,'段钰玺','河南省郑州市金水区航海路-a区－c门红星饭店',0,1509171838,'')
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/danyuxi/Documents/WWW/mobilephone/App/Home/Controller/OrderController.class.php:66) /Users/danyuxi/Documents/WWW/mobilephone/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/danyuxi/Documents/WWW/mobilephone/App/Home/Controller/OrderController.class.php:66) /Users/danyuxi/Documents/WWW/mobilephone/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-10-28T14:27:02+08:00 ] ::1 /index.php/Home/cart/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000817s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0016s ]
+SQL: select cart.gid,cart.id,cart.goodsnum,goods.picname,goods.goodsname,goods.price,goods.oldprice from cart join goods on cart.gid=goods.id where cart.uid=11 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000159s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032489s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032607s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001522s ]
+
+[ 2017-10-28T14:27:06+08:00 ] ::1 /index.php/Home/order/confirm_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0018s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=7 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0015s ]
+SQL: select * from address where uid=11 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023268s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000200s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000258s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000611s ]
+
+[ 2017-10-28T14:27:11+08:00 ] ::1 /index.php/Home/order/return_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0018s ]
+SQL: select * from address where uid=11 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0021s ]
+SQL: select * from goods where id=7 [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0018s ]
+SQL: select * from cart where gid=7 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0018s ]
+SQL: insert into details(orderid,goodsname,goodsid,price,num) values(41441150917203172698,'新鲜小黄鱼特惠',7,87.90,27) [ RunTime:0.0007s ]
+SQL: update goods set store=761,buynum=363 [ RunTime:0.0005s ]
+SQL: delete from cart where gid=7 and uid=11 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0017s ]
+ERR: 1054:Unknown column 'linkname' in 'field list'
+ [ SQL语句 ] : insert into orders(oid,state,uid,linkname,address,phone,creat_time,remark) values(41441150917203172698,1,11,'段钰玺','河南省郑州市金水区航海路-a区－c门红星饭店',0,1509172031,'safad')
+ERR: 1054:Unknown column 'linkname' in 'field list'
+ [ SQL语句 ] : insert into orders(oid,state,uid,linkname,address,phone,creat_time,remark) values(41441150917203172698,1,11,'段钰玺','河南省郑州市金水区航海路-a区－c门红星饭店',0,1509172031,'safad')
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/danyuxi/Documents/WWW/mobilephone/App/Home/Controller/OrderController.class.php:66) /Users/danyuxi/Documents/WWW/mobilephone/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/danyuxi/Documents/WWW/mobilephone/App/Home/Controller/OrderController.class.php:66) /Users/danyuxi/Documents/WWW/mobilephone/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2017-10-28T14:28:15+08:00 ] ::1 /index.php/Home/goods/category_addcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000989s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0016s ]
+SQL: select goodsnum from cart where uid=11 and gid='2' [ RunTime:0.0006s ]
+SQL: insert into cart(uid,gid,goodsnum,creat_time) value(11,2,1,1509172095) [ RunTime:0.0008s ]
+
+[ 2017-10-28T14:28:15+08:00 ] ::1 /index.php/Home/goods/category_decide.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001575s ]
+
+[ 2017-10-28T14:28:15+08:00 ] ::1 /index.php/Home/goods/category_cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0016s ]
+SQL: select goodsnum from cart where uid=11 [ RunTime:0.0007s ]
+
+[ 2017-10-28T14:28:15+08:00 ] ::1 /index.php/Home/goods/category_addcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0043s ]
+SQL: select goodsnum from cart where uid=11 and gid='3' [ RunTime:0.0008s ]
+SQL: insert into cart(uid,gid,goodsnum,creat_time) value(11,3,1,1509172095) [ RunTime:0.0011s ]
+
+[ 2017-10-28T14:28:15+08:00 ] ::1 /index.php/Home/goods/category_decide.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000965s ]
+
+[ 2017-10-28T14:28:15+08:00 ] ::1 /index.php/Home/goods/category_cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001481s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0040s ]
+SQL: select goodsnum from cart where uid=11 [ RunTime:0.0008s ]
+
+[ 2017-10-28T14:28:16+08:00 ] ::1 /index.php/Home/goods/category_addcart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0031s ]
+SQL: select goodsnum from cart where uid=11 and gid='4' [ RunTime:0.0006s ]
+SQL: insert into cart(uid,gid,goodsnum,creat_time) value(11,4,1,1509172096) [ RunTime:0.0007s ]
+
+[ 2017-10-28T14:28:16+08:00 ] ::1 /index.php/Home/goods/category_decide.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001110s ]
+
+[ 2017-10-28T14:28:17+08:00 ] ::1 /index.php/Home/goods/category_cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0014s ]
+SQL: select goodsnum from cart where uid=11 [ RunTime:0.0006s ]
+
+[ 2017-10-28T14:28:18+08:00 ] ::1 /index.php/Home/cart/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000545s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0015s ]
+SQL: select cart.gid,cart.id,cart.goodsnum,goods.picname,goods.goodsname,goods.price,goods.oldprice from cart join goods on cart.gid=goods.id where cart.uid=11 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026205s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002207s ]
+
+[ 2017-10-28T14:28:21+08:00 ] ::1 /index.php/Home/cart/cart_increment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000573s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0031s ]
+SQL: select goodsnum from cart where uid=11 and gid=2 [ RunTime:0.0005s ]
+SQL: update cart set goodsnum=2 where uid=11 and gid=2 [ RunTime:0.0007s ]
+
+[ 2017-10-28T14:28:21+08:00 ] ::1 /index.php/Home/cart/cart_increment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000911s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0029s ]
+SQL: select goodsnum from cart where uid=11 and gid=2 [ RunTime:0.0005s ]
+SQL: update cart set goodsnum=3 where uid=11 and gid=2 [ RunTime:0.0007s ]
+
+[ 2017-10-28T14:28:21+08:00 ] ::1 /index.php/Home/cart/cart_increment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000555s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0032s ]
+SQL: select goodsnum from cart where uid=11 and gid=2 [ RunTime:0.0005s ]
+SQL: update cart set goodsnum=4 where uid=11 and gid=2 [ RunTime:0.0009s ]
+
+[ 2017-10-28T14:28:22+08:00 ] ::1 /index.php/Home/cart/cart_increment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0031s ]
+SQL: select goodsnum from cart where uid=11 and gid=3 [ RunTime:0.0005s ]
+SQL: update cart set goodsnum=2 where uid=11 and gid=3 [ RunTime:0.0010s ]
+
+[ 2017-10-28T14:28:22+08:00 ] ::1 /index.php/Home/cart/cart_increment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0036s ]
+SQL: select goodsnum from cart where uid=11 and gid=3 [ RunTime:0.0005s ]
+SQL: update cart set goodsnum=3 where uid=11 and gid=3 [ RunTime:0.0007s ]
+
+[ 2017-10-28T14:28:22+08:00 ] ::1 /index.php/Home/cart/cart_increment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000503s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000558s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0030s ]
+SQL: select goodsnum from cart where uid=11 and gid=3 [ RunTime:0.0005s ]
+SQL: update cart set goodsnum=4 where uid=11 and gid=3 [ RunTime:0.0007s ]
+
+[ 2017-10-28T14:28:23+08:00 ] ::1 /index.php/Home/cart/cart_increment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000487s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001400s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0032s ]
+SQL: select goodsnum from cart where uid=11 and gid=4 [ RunTime:0.0005s ]
+SQL: update cart set goodsnum=2 where uid=11 and gid=4 [ RunTime:0.0007s ]
+
+[ 2017-10-28T14:28:23+08:00 ] ::1 /index.php/Home/cart/cart_increment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0030s ]
+SQL: select goodsnum from cart where uid=11 and gid=4 [ RunTime:0.0005s ]
+SQL: update cart set goodsnum=3 where uid=11 and gid=4 [ RunTime:0.0007s ]
+
+[ 2017-10-28T14:28:23+08:00 ] ::1 /index.php/Home/cart/cart_increment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0029s ]
+SQL: select goodsnum from cart where uid=11 and gid=4 [ RunTime:0.0005s ]
+SQL: update cart set goodsnum=4 where uid=11 and gid=4 [ RunTime:0.0007s ]
+
+[ 2017-10-28T14:28:28+08:00 ] ::1 /index.php/Home/order/confirm_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0019s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=2 [ RunTime:0.0006s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=3 [ RunTime:0.0005s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=4 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0018s ]
+SQL: select * from address where uid=11 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000580s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2017-10-28T14:28:41+08:00 ] ::1 /index.php/Home/cart/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000553s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0017s ]
+SQL: select cart.gid,cart.id,cart.goodsnum,goods.picname,goods.goodsname,goods.price,goods.oldprice from cart join goods on cart.gid=goods.id where cart.uid=11 [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028876s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000995s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001181s ]
+
+[ 2017-10-28T14:28:46+08:00 ] ::1 /index.php/Home/order/confirm_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0020s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=2 [ RunTime:0.0003s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=3 [ RunTime:0.0002s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=4 [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0084s ]
+SQL: select * from address where uid=11 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020324s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2017-10-28T14:29:03+08:00 ] ::1 /index.php/Home/cart/cart_increment.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0014s ]
+SQL: select goodsnum from cart where uid=11 and gid=2 [ RunTime:0.0005s ]
+SQL: update cart set goodsnum=5 where uid=11 and gid=2 [ RunTime:0.0008s ]
+
+[ 2017-10-28T14:29:06+08:00 ] ::1 /index.php/Home/order/confirm_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000531s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0018s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=2 [ RunTime:0.0007s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=3 [ RunTime:0.0005s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=4 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0014s ]
+SQL: select * from address where uid=11 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019782s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019865s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000197s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2017-10-28T14:29:29+08:00 ] ::1 /index.php/Home/cart/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0018s ]
+SQL: select cart.gid,cart.id,cart.goodsnum,goods.picname,goods.goodsname,goods.price,goods.oldprice from cart join goods on cart.gid=goods.id where cart.uid=11 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000173s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028244s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028318s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001056s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001211s ]
+
+[ 2017-10-28T14:29:37+08:00 ] ::1 /index.php/Home/order/confirm_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0016s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=2 [ RunTime:0.0002s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=3 [ RunTime:0.0001s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=4 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0013s ]
+SQL: select * from address where uid=11 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019921s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000246s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000598s ]
+
+[ 2017-10-28T14:30:21+08:00 ] ::1 /index.php/Home/cart/cart.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000905s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0018s ]
+SQL: select cart.gid,cart.id,cart.goodsnum,goods.picname,goods.goodsname,goods.price,goods.oldprice from cart join goods on cart.gid=goods.id where cart.uid=11 [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038609s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001299s ]
+
+[ 2017-10-28T14:30:24+08:00 ] ::1 /index.php/Home/order/confirm_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+
+[ 2017-10-28T14:33:57+08:00 ] ::1 /index.php/Home/order/confirm_order.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000612s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0030s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=2 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0015s ]
+SQL: select goodsnum from cart where uid=11 and gid=2 [ RunTime:0.0005s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=3 [ RunTime:0.0002s ]
+SQL: select goodsnum from cart where uid=11 and gid=3 [ RunTime:0.0004s ]
+SQL: select goods.price,cart.goodsnum from goods join cart on cart.gid=goods.id where goods.id=4 [ RunTime:0.0002s ]
+SQL: select goodsnum from cart where uid=11 and gid=4 [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0014s ]
+SQL: select * from address where uid=11 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000879s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000951s ]
+
+[ 2017-10-28T14:34:03+08:00 ] ::1 /index.php/Home/order/return_state.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000622s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0035s ]
+SQL: select * from address where uid=11 [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0053s ]
+SQL: select * from goods where id=2 [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0021s ]
+SQL: select * from cart where gid=2 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `details` [ RunTime:0.0015s ]
+SQL: insert into details(orderid,goodsname,goodsid,price,num) values(71020150917244367660,'新鲜生菜两斤装特惠',2,3.90,5) [ RunTime:0.0014s ]
+SQL: update goods set store=759,buynum=365 [ RunTime:0.0030s ]
+SQL: delete from cart where gid=2 and uid=11 [ RunTime:0.0008s ]
+SQL: select * from goods where id=3 [ RunTime:0.0005s ]
+SQL: select * from cart where gid=3 [ RunTime:0.0004s ]
+SQL: insert into details(orderid,goodsname,goodsid,price,num) values(71020150917244367660,'红萝卜3斤装',3,8.90,2) [ RunTime:0.0008s ]
+SQL: update goods set store=756,buynum=368 [ RunTime:0.0012s ]
+SQL: delete from cart where gid=3 and uid=11 [ RunTime:0.0014s ]
+SQL: select * from goods where id=4 [ RunTime:0.0007s ]
+SQL: select * from cart where gid=4 [ RunTime:0.0005s ]
+SQL: insert into details(orderid,goodsname,goodsid,price,num) values(71020150917244367660,'西红柿5斤装',4,6.90,4) [ RunTime:0.0010s ]
+SQL: update goods set store=752,buynum=372 [ RunTime:0.0004s ]
+SQL: delete from cart where gid=4 and uid=11 [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `orders` [ RunTime:0.0014s ]
+SQL: insert into orders(oid,state,uid,linkman,address,phone,creat_time,remark) values(71020150917244367660,1,11,'段钰玺','河南省郑州市金水区航海路-a区－c门红星饭店',0,1509172443,'') [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027285s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/danyuxi/Documents/WWW/mobilephone/App/Home/Controller/OrderController.class.php:68) /Users/danyuxi/Documents/WWW/mobilephone/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/danyuxi/Documents/WWW/mobilephone/App/Home/Controller/OrderController.class.php:68) /Users/danyuxi/Documents/WWW/mobilephone/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/danyuxi/Documents/WWW/mobilephone/App/Home/Controller/OrderController.class.php:68) /Users/danyuxi/Documents/WWW/mobilephone/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000685s ]
+
